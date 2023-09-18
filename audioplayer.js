@@ -1,3 +1,5 @@
+console.log("audioplayer.js is successfully loaded!");
+
 (function(t, e, n) {
     function i(t, e) {
         this.$elem = t, this.settings = t.extend({}, s, e), this.name = this.settings.name, this.songs = [], this.init()
